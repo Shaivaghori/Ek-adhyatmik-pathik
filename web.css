@@ -1,0 +1,231 @@
+*{
+    margin: 0px 0px;
+}
+
+/* NAV_BAR */
+#nav-bar{
+    display: flex;
+    background-color: black;
+    margin: 0px 0px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    padding: 0px 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav ul li{
+    padding: 0px 40px;
+    list-style: none;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(255, 240, 28);
+}
+
+#logo{
+    color: white;
+    padding: 0px 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 3px 3px;
+    font-weight: bold;
+}
+
+#logo:hover{
+    /* font-size: 1.2rem; */
+    /* font-family: cursive; */
+    color: gray;
+    cursor: pointer;
+}
+
+#logo p{
+    font-size: smaller;
+}
+
+nav #search input{
+    padding: 5px 10px;
+    border-radius: 12px;
+}
+
+/* SECTION_home BAR */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 200px;
+    /* height: 360px; */
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    background: url('ek1.jpeg');
+    width: 100%;
+    height: 65%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#home p{
+    color: white;
+}
+
+/* LATEST POSTS */
+#post{
+    margin-top: 165px;
+    height: 280px;
+}
+
+#image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image img{
+    height: 175px;
+    padding: 10px 30px;
+}
+
+#post p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    padding: 0px 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+#post p a{
+    text-decoration: none;
+}
+
+
+#post p a:hover{
+    color: green;
+}
+
+/* QOUTE SECTION */
+#qoute{
+    margin-top: 10px;
+}
+
+/* FOLOW_SECTION */
+#follow-section{
+    height: 260px;
+    position: relative;
+}
+
+#follow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+#follow img{
+    height: 80px;
+    padding: 10px 70px;
+}
+
+* CONTACT SECTION */
+#contact{
+    position: relative;
+}
+
+#contact-box{
+    height: 525px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 12px;
+    font-size: 1.1rem;
+}
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+    font-family: 'Acme', sans-serif;
+} 
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 20px;
+
+}
+
+.center{
+    padding-left: 400px;
+}
+
+/* UTILITY CLASSES */
+.h-primary{
+    color: white;
+    font-size: 3rem;
+    font-family: cursive;
+    padding: 30px 0px;
+    font-weight: bold;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+    /* cursor: pointer; */
+}
+
+h1:hover{
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    color: rgb(8, 206, 8);
+    cursor: pointer;
+}
+
+h1 a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+}
+
+h1 a:hover{
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    color: rgb(8, 206, 8);
+    cursor: pointer;
+}
+
+.btn{
+    /* border: 2px solid gray; */
+    /* background-color: tomato; */
+    font-size: 1.8rem;
+    padding: 5px 20px;
+    margin: 20px;
+    border-radius: 20px;
+    color: gray;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
